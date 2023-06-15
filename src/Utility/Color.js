@@ -1,0 +1,23 @@
+export const Colors = {
+  themeColor: '#FD7F20',
+  themetext: '#102E60',
+  white: '#FFFFFF',
+  theme2: '#FD7F20',
+  button: '#102E60',
+  disbutton: '#E8E8E8',
+  disbuttontext: '#969AA8',
+  placeholder: '#77838F',
+  black: '#022150',
+  black1:"#1A1F1F",
+  flatlistback: '#E2F2FF',
+  grey: '#919397',
+  lightpink: '#EBEBEB',
+  textgray: '#7D7D7D',
+  shadow: '#171717',
+  red: '#FF5454',
+  forgot_blue:'#0043C8',
+  mediabackground:'#FFFFFF',
+  mediatextcolor:'black',
+  cancletextcolor:'black',
+
+};
