@@ -25,11 +25,12 @@ Precious Task repository
 # Git Setup
  1. create new public repository on github
  2. upload project on created git repository
-     git init
-     git add .
-     git commit -m "project upload on git"
-     git remote add origin https://github.com/vaishalipal96/precious.git
-     git push -u -f origin master
+    
+     2.1 git init
+     2.2 git add .
+     2.3 git commit -m "project upload on git"
+     2.4 git remote add origin https://github.com/vaishalipal96/precious.git
+     2.5 git push -u -f origin master
      
 
    
