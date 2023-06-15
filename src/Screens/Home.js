@@ -102,6 +102,7 @@ class APP extends Component {
           />
           <View style={styles.mainView}>
             <View style={{width: '95%', alignSelf: 'center'}}>
+            {this.props.movieData != null && (
               <TouchableOpacity
                 onPress={() => {
                   this.setState({
@@ -119,8 +120,10 @@ class APP extends Component {
                 ]}>
                 <Text style={[styles.btnText,{ color: this.state.topRated ? Colors.white : Colors.black}]}>Top Rated Movies</Text>
               </TouchableOpacity>
+              )}
               {this.props.movieData != null && (
                 <FlatList
+                showsVerticalScrollIndicator={false}
                   data={this.state.movieList}
                   onRefresh={() => this.getMovieListing()}
                   refreshing={this.state.pullRefresh}
@@ -139,9 +142,7 @@ class APP extends Component {
                               type="custom"
                               selectedIconImage={require('../assets/icons/star.png')}
                             />
-                            <Text style={styles.ratingText}>
-                              ({item.rating})
-                            </Text>
+                           
                           </View>
                         </View>
                       </View>
@@ -216,6 +217,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     paddingVertical: '2%',
     flexDirection: 'row',
+    alignItems:'center'
   },
   ratingText: {
     fontSize: titleTextSize,

@@ -1,8 +1,8 @@
 export const Colors = {
-  themeColor: '#FD7F20',
+  themeColor: '#fc5518',
   themetext: '#102E60',
   white: '#FFFFFF',
-  theme2: '#FD7F20',
+  theme2: '#fc5518',
   button: '#102E60',
   disbutton: '#E8E8E8',
   disbuttontext: '#969AA8',
