@@ -28,7 +28,7 @@ Precious Task repository
      git init
      git add .
      git commit -m "project upload on git"
-     git remote add origin https://github.com/cameronmcnz/example-website.git
+     git remote add origin https://github.com/vaishalipal96/precious.git
      git push -u -f origin master
      
 
